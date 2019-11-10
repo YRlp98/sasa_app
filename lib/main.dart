@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sasa_app/home_screen.dart';
+import 'package:sasa_app/theme/theme.dart';
 
 void main() => runApp(MyApp());
 
@@ -10,9 +11,7 @@ class MyApp extends StatelessWidget {
     return new MaterialApp(
       title: 'SaSa',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
+      theme: appTheme,
       home: HomeScreen(title: 'SaSa'),
     );
   }

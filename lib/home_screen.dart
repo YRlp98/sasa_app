@@ -16,8 +16,17 @@ class _HomeScreenState extends State<HomeScreen> {
           title: Text(widget.title),
           centerTitle: true,
         ),
-        body: new Center(
-          child: Text('Hello World!'),
+        body: new Container(
+          child: new ListView.builder(
+            itemCount: 20,
+            itemBuilder: (context, index) {
+              return Card(
+                child: Container(
+                  height: 100,
+                ),
+              );
+            },
+          ),
         ));
   }
 }
