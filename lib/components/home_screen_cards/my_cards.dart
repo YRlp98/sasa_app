@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sasa_app/screens/quick_sort_screen.dart';
+import 'package:sasa_app/screens/quick_sort/quick_sort_screen.dart';
 
 class MyCardsCreate extends StatelessWidget {
   final Icon cardLeading;

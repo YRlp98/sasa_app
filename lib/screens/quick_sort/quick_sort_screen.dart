@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sasa_app/screens/quick_sort_about.dart';
+import 'package:sasa_app/screens/quick_sort/quick_sort_about.dart';
 
 class QuickSortScreen extends StatelessWidget {
   @override
