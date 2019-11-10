@@ -57,11 +57,14 @@ class _QuickSortBodyState extends State<QuickSortBody> {
 
           // Buttons
           Row(
-            mainAxisAlignment: MainAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: <Widget>[
               // Remove button
               FlatButton(
-                child: Text('Clear list'),
+                child: Text(
+                  'Clear list',
+                  style: TextStyle(color: Colors.blue),
+                ),
                 onPressed: () {
                   _clreattoList();
                 },
