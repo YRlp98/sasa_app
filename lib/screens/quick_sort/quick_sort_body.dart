@@ -110,18 +110,18 @@ class _QuickSortBodyState extends State<QuickSortBody> {
 
           // Show sorted numbers
           Container(
-            padding: const EdgeInsets.all(15.0),
-            height: 50.0,
+            padding: const EdgeInsets.all(18.0),
+            height: 60.0,
             width: width,
             decoration: BoxDecoration(
                 color: Colors.blue,
-                border: Border.all(width: 1.0),
+                // border: Border.all(width: 1.0),
                 borderRadius: BorderRadius.all(Radius.circular(10.0))),
             child: SingleChildScrollView(
               scrollDirection: Axis.horizontal,
               child: Text(
-                'Sorted: ' + intNumberList.toString(),
-                style: TextStyle(color: Colors.white),
+                'Sorted: ' + numbersList.toString(),
+                style: TextStyle(color: Colors.white, fontSize: 16.0),
               ),
             ),
           ),
