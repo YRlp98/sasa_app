@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sasa_app/components/my_cards.dart';
 
 class HomeScreen extends StatefulWidget {
   HomeScreen({Key key, this.title}) : super(key: key);
@@ -18,13 +19,9 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
         body: new Container(
           child: new ListView.builder(
-            itemCount: 20,
+            itemCount: 1,
             itemBuilder: (context, index) {
-              return Card(
-                child: Container(
-                  height: 100,
-                ),
-              );
+              return MyCardsUse();
             },
           ),
         ));
