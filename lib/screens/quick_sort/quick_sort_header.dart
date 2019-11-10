@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:sasa_app/components/web_view.dart';
 
-class QuickSortAbout extends StatelessWidget {
+class QuickSortHeader extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new Container(
@@ -30,7 +30,7 @@ class QuickSortAbout extends StatelessWidget {
             ),
             Align(
               alignment: Alignment.bottomRight,
-              child: RaisedButton(
+              child: FlatButton(
                 color: Colors.white,
                 textColor: Colors.blue,
                 shape: RoundedRectangleBorder(
