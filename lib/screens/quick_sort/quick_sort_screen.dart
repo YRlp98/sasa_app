@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sasa_app/screens/quick_sort/quick_sort_body.dart';
 import 'package:sasa_app/screens/quick_sort/quick_sort_header.dart';
 
 class QuickSortScreen extends StatelessWidget {
@@ -14,7 +15,7 @@ class QuickSortScreen extends StatelessWidget {
           child: Column(
             children: <Widget>[
               new QuickSortHeader(),
-              new Container(),
+              new QuickSortBody(),
             ],
           ),
         ));

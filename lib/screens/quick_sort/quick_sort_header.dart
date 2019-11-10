@@ -30,7 +30,7 @@ class QuickSortHeader extends StatelessWidget {
             ),
             Align(
               alignment: Alignment.bottomRight,
-              child: RaisedButton(
+              child: FlatButton(
                 color: Colors.white,
                 textColor: Colors.blue,
                 shape: RoundedRectangleBorder(
