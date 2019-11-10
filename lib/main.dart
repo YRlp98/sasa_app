@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sasa_app/home_screen.dart';
+import 'package:sasa_app/screens/home_screen.dart';
 import 'package:sasa_app/theme/theme.dart';
 
 void main() => runApp(MyApp());

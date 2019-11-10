@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'components/home_screen_cards/my_cards.dart';
+import 'package:sasa_app/components/home_screen_cards/my_cards.dart';
 
 class HomeScreen extends StatefulWidget {
   HomeScreen({Key key, this.title}) : super(key: key);

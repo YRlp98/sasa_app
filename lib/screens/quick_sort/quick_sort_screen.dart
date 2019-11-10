@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sasa_app/screens/quick_sort/quick_sort_about.dart';
+import 'package:sasa_app/screens/quick_sort/quick_sort_header.dart';
 
 class QuickSortScreen extends StatelessWidget {
   @override
@@ -13,7 +13,7 @@ class QuickSortScreen extends StatelessWidget {
         body: new SingleChildScrollView(
           child: Column(
             children: <Widget>[
-              new QuickSortAbout(),
+              new QuickSortHeader(),
               new Container(),
             ],
           ),
