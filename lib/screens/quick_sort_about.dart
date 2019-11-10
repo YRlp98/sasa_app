@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sasa_app/components/web_view.dart';
 
 class QuickSortAbout extends StatelessWidget {
   @override
@@ -39,7 +40,12 @@ class QuickSortAbout extends StatelessWidget {
                   child: Text('Read more...'),
                 ),
                 onPressed: () {
-                  
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => WebViewContainer(
+                              'https://www.geeksforgeeks.org/quick-sort/',
+                              'QuickSort')));
                 },
               ),
             ),
